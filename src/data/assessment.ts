@@ -223,4 +223,100 @@ export const assessmentQuestions: AssessmentQuestion[] = [
     ],
     answer: 2,
   },
+
+  // ===== 难度 1 补充 =====
+  {
+    id: 'assess-021',
+    skill: 'vocabulary',
+    difficulty: 1,
+    type: 'multiple-choice',
+    question: 'Choose the correct word: "My sister ______ a beautiful song at the party yesterday."',
+    options: ['sing', 'sang', 'sings', 'singing'],
+    answer: 1,
+  },
+  {
+    id: 'assess-022',
+    skill: 'grammar',
+    difficulty: 1,
+    type: 'multiple-choice',
+    question: 'Choose the correct pronoun: "______ are my friends from school."',
+    options: ['This', 'That', 'These', 'It'],
+    answer: 2,
+  },
+
+  // ===== 难度 2 补充 =====
+  {
+    id: 'assess-023',
+    skill: 'vocabulary',
+    difficulty: 2,
+    type: 'multiple-choice',
+    question: 'Choose the antonym of "fast": "The old car moved at a ______ pace along the country road."',
+    options: ['rapid', 'quick', 'slow', 'steady'],
+    answer: 2,
+  },
+  {
+    id: 'assess-024',
+    skill: 'grammar',
+    difficulty: 2,
+    type: 'fill-blank',
+    question: 'Complete the sentence: "She has been learning English ______ three years."',
+    answer: 'for',
+  },
+
+  // ===== 难度 3 补充 =====
+  {
+    id: 'assess-025',
+    skill: 'vocabulary',
+    difficulty: 3,
+    type: 'multiple-choice',
+    question: 'Choose the best word: "The sudden change in weather caught everyone by ______."',
+    options: ['surprise', 'surprised', 'surprising', 'surprises'],
+    answer: 0,
+  },
+  {
+    id: 'assess-026',
+    skill: 'grammar',
+    difficulty: 3,
+    type: 'fill-blank',
+    question: 'Complete with the correct tense: "I ______ (work) here since 2018."',
+    answer: 'have been working',
+  },
+
+  // ===== 难度 4 补充 =====
+  {
+    id: 'assess-027',
+    skill: 'vocabulary',
+    difficulty: 4,
+    type: 'multiple-choice',
+    question: 'Choose the word that best completes: "The documentary provided a ______ insight into the lives of refugees."',
+    options: ['superficial', 'profound', 'trivial', 'irrelevant'],
+    answer: 1,
+  },
+  {
+    id: 'assess-028',
+    skill: 'grammar',
+    difficulty: 4,
+    type: 'fill-blank',
+    question: 'Complete with the correct form: "If I ______ (know) about the meeting, I would have attended."',
+    answer: 'had known',
+  },
+
+  // ===== 难度 5 补充 =====
+  {
+    id: 'assess-029',
+    skill: 'vocabulary',
+    difficulty: 5,
+    type: 'multiple-choice',
+    question: 'Choose the word that best fits: "The CEO\'s resignation came as a ______ to everyone in the company."',
+    options: ['foregone conclusion', 'complete surprise', 'expected event', 'minor detail'],
+    answer: 1,
+  },
+  {
+    id: 'assess-030',
+    skill: 'grammar',
+    difficulty: 5,
+    type: 'fill-blank',
+    question: 'Complete with the correct form: "The report, ______ (submit) by the committee, revealed significant discrepancies."',
+    answer: 'submitted',
+  },
 ];

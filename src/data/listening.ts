@@ -268,4 +268,269 @@ Dr. Okafor: Yes, actually. My team has been studying certain "super corals" that
       },
     ],
   },
+  {
+    id: 'listening-job-interview',
+    title: '求职面试',
+    titleEn: 'Job Interview for Marketing Position',
+    type: 'dialogue',
+    level: 'B1',
+    duration: 200,
+    unlocked: false,
+    transcript: `[Transcript]
+Interviewer: Good morning, Ms. Carter. Thank you for coming in today. Please take a seat.
+Ms. Carter: Good morning. Thank you for inviting me.
+
+Interviewer: Let's start with your background. Could you tell me a bit about your previous experience in marketing?
+
+Ms. Carter: Absolutely. I've been working in marketing for the past five years. My most recent role was as a Marketing Manager at Green Solutions, a sustainable products company. I was responsible for developing and implementing digital marketing campaigns, managing social media accounts, and analyzing campaign performance using Google Analytics and other tools.
+
+Interviewer: That sounds very relevant. Can you give me an example of a successful campaign you led?
+
+Ms. Carter: Certainly. Last year, I developed a campaign to promote our new eco-friendly packaging line. We used a combination of social media ads, influencer partnerships, and email marketing. The campaign resulted in a 35% increase in sales within three months, and we received several industry awards for creativity and sustainability.
+
+Interviewer: Impressive. Now, what do you know about our company?
+
+Ms. Carter: I've done extensive research. Your company, Bright Innovations, is a leader in consumer electronics with a strong focus on innovation and customer experience. I particularly admire how you integrate sustainability into your product design and packaging.
+
+Interviewer: Thank you. How would you describe your communication skills?
+
+Ms. Carter: I believe I'm an excellent communicator. In my previous role, I regularly presented campaign results to senior management and collaborated with cross-functional teams, including product development and sales. I'm comfortable adapting my communication style to different audiences.
+
+Interviewer: Finally, do you have any questions for me?
+
+Ms. Carter: Yes, actually. Could you tell me about the team I would be working with and the key priorities for the marketing department over the next year?
+
+Interviewer: Of course. The marketing team consists of eight people with diverse backgrounds. Our main priorities include expanding into international markets and developing a customer loyalty program.
+
+Ms. Carter: Thank you. That's very helpful.
+
+Interviewer: Well, Ms. Carter, we have a few more candidates to interview today, but I'll be in touch within the week.
+
+Ms. Carter: Thank you for your time. I look forward to hearing from you.`,
+    questions: [
+      {
+        id: 'interview-q1',
+        type: 'multiple-choice',
+        question: 'What was Ms. Carter\'s most recent job?',
+        options: ['Marketing Manager at Green Solutions', 'Sales Director at Bright Innovations', 'Digital Marketing Specialist', 'Product Developer'],
+        answer: 0,
+        explanation: 'Ms. Carter 说 My most recent role was as a Marketing Manager at Green Solutions。',
+      },
+      {
+        id: 'interview-q2',
+        type: 'fill-blank',
+        question: 'Ms. Carter\'s eco-friendly packaging campaign resulted in a ______ increase in sales.',
+        answer: '35%',
+        explanation: 'Ms. Carter 提到 The campaign resulted in a 35% increase in sales within three months。',
+      },
+      {
+        id: 'interview-q3',
+        type: 'multiple-choice',
+        question: 'What does Ms. Carter admire about Bright Innovations?',
+        options: [
+          'Their low prices',
+          'Their focus on sustainability in product design',
+          'Their large office space',
+          'Their employee benefits',
+        ],
+        answer: 1,
+        explanation: 'Ms. Carter 说 I particularly admire how you integrate sustainability into your product design and packaging。',
+      },
+      {
+        id: 'interview-q4',
+        type: 'multiple-choice',
+        question: 'What is one of the marketing department\'s key priorities?',
+        options: [
+          'Reducing employee costs',
+          'Expanding into international markets',
+          'Closing retail stores',
+          'Developing new software',
+        ],
+        answer: 1,
+        explanation: '面试官说 Our main priorities include expanding into international markets and developing a customer loyalty program。',
+      },
+    ],
+  },
+  {
+    id: 'listening-music-festival',
+    title: '音乐节介绍',
+    titleEn: 'Summer Music Festival Guide',
+    type: 'monologue',
+    level: 'B1+',
+    duration: 220,
+    unlocked: false,
+    transcript: `[Transcript]
+Welcome to the official guide for this year's Summer Sounds Festival! Taking place over three days from the 15th to the 17th of July at Greenfield Park, this year's festival promises to be bigger and better than ever before.
+
+Let's start with the lineup. On Friday night, we have the legendary rock band The Thunderheads headlining, supported by rising indie star Lila Rose. Saturday's main stage will feature electronic music pioneers Neon Pulse, with a special guest appearance by Grammy-winning DJ Max Storm. Sunday closes the festival with folk-pop sensation Willow Creek and soul singer Marcus Taylor.
+
+Now, some important practical information. Gates open at 11 a.m. each day, and the first act starts at 1 p.m. We strongly recommend arriving early to avoid long queues. Tickets are available online through our website, and we advise buying them in advance—last year's tickets sold out a week before the event.
+
+For those planning to stay overnight, we have a camping area located just a five-minute walk from the main stages. Camping passes include access to shared shower facilities and a communal kitchen. Please note that alcohol is not permitted in the camping area, but there will be plenty of licensed bars near the stages.
+
+In terms of food, we've partnered with some of the city's best food trucks, offering a wide range of options including vegetarian, vegan, and gluten-free meals. There will also be a craft beer tent and a cocktail bar for those looking for a refreshing drink.
+
+Finally, a few safety reminders. Please keep your ticket with you at all times as you'll need it to re-enter the festival grounds. The park is a no-smoking zone, and we ask everyone to respect the environment by using the recycling bins provided.
+
+We can't wait to see you all at Greenfield Park this summer! For more information, visit our website or follow us on social media.`,
+    questions: [
+      {
+        id: 'festival-q1',
+        type: 'multiple-choice',
+        question: 'When does the Summer Sounds Festival take place?',
+        options: [
+          'July 15th to 17th',
+          'August 15th to 17th',
+          'July 1st to 3rd',
+          'June 15th to 17th',
+        ],
+        answer: 0,
+        explanation: '演讲者说 Taking place over three days from the 15th to the 17th of July。',
+      },
+      {
+        id: 'festival-q2',
+        type: 'fill-blank',
+        question: 'The camping area is a ______-minute walk from the main stages.',
+        answer: 'five',
+        explanation: '演讲者提到 a camping area located just a five-minute walk from the main stages。',
+      },
+      {
+        id: 'festival-q3',
+        type: 'multiple-choice',
+        question: 'Who is headlining on Saturday night?',
+        options: ['The Thunderheads', 'Neon Pulse', 'Willow Creek', 'Lila Rose'],
+        answer: 1,
+        explanation: '演讲者说 Saturday\'s main stage will feature electronic music pioneers Neon Pulse。',
+      },
+      {
+        id: 'festival-q4',
+        type: 'multiple-choice',
+        question: 'Which of the following is NOT permitted in the camping area?',
+        options: ['Alcohol', 'Camping tents', 'Shower facilities', 'Communal kitchen'],
+        answer: 0,
+        explanation: '演讲者说 alcohol is not permitted in the camping area。',
+      },
+    ],
+  },
+  {
+    id: 'listening-podcast',
+    title: '科技播客',
+    titleEn: 'Tech Trends Podcast',
+    type: 'broadcast',
+    level: 'B2',
+    duration: 250,
+    unlocked: false,
+    transcript: `[Transcript]
+Welcome to Tech Trends, your weekly guide to the latest developments in technology. I'm your host, Alex Chen.
+
+This week, we're diving into the world of artificial intelligence and its impact on the workplace. According to a recent report by the World Economic Forum, AI could automate approximately 30% of work tasks by 2030. But before you start worrying about job losses, let's look at the bigger picture.
+
+The report also predicts that AI will create as many new jobs as it displaces, particularly in fields like data analysis, AI training, and human-AI collaboration. In fact, many experts argue that the real transformation will be in how we work, not whether we work. AI has the potential to take over repetitive tasks, allowing humans to focus on more creative and strategic work.
+
+But it's not all positive. There are significant concerns about bias in AI systems, as we discussed in last week's episode. And the pace of change is so rapid that many workers will need to upskill or reskill to keep up. Governments and companies must invest in training programs to ensure that no one is left behind.
+
+In other news, Elon Musk's Neuralink has announced that it has successfully implanted its brain-computer interface device in a human patient for the first time. The device, which is about the size of a coin, is designed to help people with neurological conditions regain motor functions. While the technology is still in its early stages, the implications are enormous—imagine a world where paralyzed individuals can control computers or even prosthetic limbs with their thoughts.
+
+Finally, let's talk about cybersecurity. With more and more of our lives moving online, the threat of cyber attacks is greater than ever. A recent survey found that 60% of small businesses that suffer a cyber attack go out of business within six months. That's why it's crucial for individuals and organizations to take cybersecurity seriously—use strong passwords, enable two-factor authentication, and keep your software up to date.
+
+That's all for this week. Thank you for listening to Tech Trends. We'll be back next week with more insights into the world of technology.`,
+    questions: [
+      {
+        id: 'podcast-q1',
+        type: 'multiple-choice',
+        question: 'According to the World Economic Forum, what percentage of work tasks could AI automate by 2030?',
+        options: ['10%', '30%', '50%', '70%'],
+        answer: 1,
+        explanation: '主持人说 AI could automate approximately 30% of work tasks by 2030。',
+      },
+      {
+        id: 'podcast-q2',
+        type: 'fill-blank',
+        question: 'Neuralink has implanted its brain-computer interface device in a human ______ for the first time.',
+        answer: 'patient',
+        explanation: '主持人说 Neuralink has announced that it has successfully implanted its brain-computer interface device in a human patient for the first time。',
+      },
+      {
+        id: 'podcast-q3',
+        type: 'multiple-choice',
+        question: 'What percentage of small businesses go out of business within six months of a cyber attack?',
+        options: ['30%', '40%', '50%', '60%'],
+        answer: 3,
+        explanation: '主持人说 A recent survey found that 60% of small businesses that suffer a cyber attack go out of business within six months。',
+      },
+      {
+        id: 'podcast-q4',
+        type: 'multiple-choice',
+        question: 'Which of the following is NOT mentioned as a cybersecurity measure?',
+        options: ['Use strong passwords', 'Enable two-factor authentication', 'Backup data daily', 'Keep software up to date'],
+        answer: 2,
+        explanation: '主持人提到 use strong passwords, enable two-factor authentication, keep your software up to date，没有提到 backup data daily（每日备份数据）。',
+      },
+    ],
+  },
+  {
+    id: 'listening-environmental-talk',
+    title: '环保演讲',
+    titleEn: 'Environmental Conference Keynote',
+    type: 'interview',
+    level: 'B2+',
+    duration: 300,
+    unlocked: false,
+    transcript: `[Transcript]
+Speaker: Good morning, everyone. It's an honor to be here today at the Global Environmental Summit. My name is Dr. Elena Marquez, and I'm the Director of the International Climate Research Institute.
+
+Let me start with a stark reality: we are facing a climate crisis of unprecedented proportions. The latest data from the Intergovernmental Panel on Climate Change (IPCC) confirms that global temperatures have already risen by 1.1 degrees Celsius since the pre-industrial era. If we don't take immediate action, we could exceed the critical 1.5-degree threshold within the next decade.
+
+So, what does this mean for our planet? Rising sea levels threaten coastal communities around the world. Extreme weather events—heatwaves, droughts, wildfires, and hurricanes—are becoming more frequent and more severe. And the loss of biodiversity is accelerating at an alarming rate, with up to one million species facing extinction.
+
+But here's the good news: we have the solutions. The technology exists to transition to a low-carbon economy. Solar and wind energy are now cheaper than fossil fuels in most parts of the world. Electric vehicles are becoming more affordable and accessible. And we're seeing remarkable innovations in green building materials and sustainable agriculture.
+
+The challenge is political will and collective action. Governments must implement ambitious carbon reduction targets and invest in renewable energy infrastructure. Businesses need to adopt sustainable practices and embrace circular economy principles. And individuals can make a difference through their daily choices—reducing energy consumption, eating less meat, and supporting sustainable products.
+
+Let me leave you with this: the climate crisis is not a distant threat. It's happening now. But it's also our greatest opportunity to build a healthier, more equitable, and more sustainable world for future generations. The choices we make today will determine the kind of planet our children inherit. Let's make sure it's one they can be proud of. Thank you.
+
+Moderator: Thank you, Dr. Marquez. We have time for one question.
+
+Audience Member: Dr. Marquez, what gives you hope that we can actually meet the 1.5-degree target?
+
+Speaker: Great question. I see hope in the younger generation—they're demanding action like never before. I see hope in the rapid advances in clean technology. And I see hope in the growing number of businesses and governments that are committing to net-zero emissions. Change is happening, and it's happening faster than many people think. But we need to accelerate that change. Every day counts.`,
+    questions: [
+      {
+        id: 'env-q1',
+        type: 'multiple-choice',
+        question: 'How much have global temperatures risen since the pre-industrial era?',
+        options: ['0.5 degrees Celsius', '1.1 degrees Celsius', '1.5 degrees Celsius', '2.0 degrees Celsius'],
+        answer: 1,
+        explanation: 'Dr. Marquez 说 global temperatures have already risen by 1.1 degrees Celsius since the pre-industrial era。',
+      },
+      {
+        id: 'env-q2',
+        type: 'fill-blank',
+        question: 'Up to ______ species are facing extinction due to the loss of biodiversity.',
+        answer: 'one million',
+        explanation: 'Dr. Marquez 提到 up to one million species facing extinction。',
+      },
+      {
+        id: 'env-q3',
+        type: 'multiple-choice',
+        question: 'Which of the following is NOT mentioned as a solution to climate change?',
+        options: ['Solar and wind energy', 'Electric vehicles', 'Green building materials', 'Nuclear power'],
+        answer: 3,
+        explanation: 'Dr. Marquez 提到 solar and wind energy, electric vehicles, green building materials，没有提到 nuclear power（核能）。',
+      },
+      {
+        id: 'env-q4',
+        type: 'multiple-choice',
+        question: 'What gives Dr. Marquez hope that we can meet the 1.5-degree target?',
+        options: [
+          'The growing number of people who deny climate change',
+          'The younger generation demanding action',
+          'The discovery of new fossil fuel reserves',
+          'The decrease in global population',
+        ],
+        answer: 1,
+        explanation: 'Dr. Marquez 说 I see hope in the younger generation—they\'re demanding action like never before。',
+      },
+    ],
+  },
 ];
